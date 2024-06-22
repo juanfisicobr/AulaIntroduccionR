@@ -21,7 +21,7 @@ colnames(dados)<-c("Trat","Rep","Var")
 annotations <- data.frame(
   x = c(round(min(dados$Var), 2), round(mean(dados$Var), 2), round(max(dados$Var), 2)),
   y = c(0.01, 0.02, 0.01),
-  label = c("Min:", "Mean:", "Max:")
+  label = c("Min:", "Media:", "Max:")
 ) 
 
 p<-ggplot(dados, aes(Var)) +
@@ -33,10 +33,10 @@ p<-ggplot(dados, aes(Var)) +
   geom_text(data = annotations, aes(x = x, y = y, label = paste(label, x)), size = 5, fontface = "bold") +
   theme_classic() +
   labs(
-    title = "Histograma",
+    title = "Histograma de Prova",
     subtitle = "Produtividade",
     caption = "Source: Dados inventados",
-    x = "sacos por hectare",
+    x = "Sacos por hectare",
     y = "Densidade"
   ) +
   theme(
