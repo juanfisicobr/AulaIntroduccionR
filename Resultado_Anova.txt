@@ -1,0 +1,50 @@
+$`Analysis of variance`
+           df type III SS mean square F value    p>F
+treatments  3      4143.0     1381.00 63.4943 <0.001
+blocks      2         3.5        1.75  0.0805 0.9237
+residuals   6       130.5       21.75       -      -
+
+$`Adjusted means`
+  treatment adjusted.mean     sd    sem tukey snk duncan t
+1         4            74 3.6056 2.6926     a   a      a a
+2         3            52 2.0000 2.6926     b   b      b b
+3         2            35 5.0000 2.6926     c   c      c c
+4         1            25 5.0000 2.6926     c   d      d d
+  scott_knott
+1           a
+2           b
+3           c
+4           d
+
+$`Multiple comparison test`
+   pair contrast p(tukey) p(snk) p(duncan)   p(t)
+1 4 - 3       22   0.0047 0.0012    0.0012 0.0012
+2 4 - 2       39   0.0002 0.0001    0.0001 0.0001
+3 4 - 1       49   0.0001 0.0001    0.0000 0.0000
+4 3 - 2       17   0.0167 0.0043    0.0043 0.0043
+5 3 - 1       27   0.0016 0.0010    0.0005 0.0004
+6 2 - 1       10   0.1349 0.0393    0.0393 0.0393
+
+$`Residual analysis`
+$`Residual analysis`$`residual analysis`
+                              values
+p.value Shapiro-Wilk test     0.8948
+p.value Bartlett test         0.6906
+coefficient of variation (%) 10.0300
+first value most discrepant   5.0000
+second value most discrepant  4.0000
+third value most discrepant   1.0000
+
+$`Residual analysis`$residuals
+    1     2     3     4     5     6     7     8     9    10    11 
+-4.75  4.25  0.50  5.25 -5.75  0.50 -1.75 -0.75  2.50  1.25  2.25 
+   12 
+-3.50 
+
+$`Residual analysis`$`standardized residuals`
+         1          2          3          4          5          6 
+-1.3790649  1.2339001  0.1451647  1.5242296 -1.6693943  0.1451647 
+         7          8          9         10         11         12 
+-0.5080765 -0.2177471  0.7258236  0.3629118  0.6532413 -1.0161531 
+
+
