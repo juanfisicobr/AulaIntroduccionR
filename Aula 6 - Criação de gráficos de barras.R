@@ -56,7 +56,7 @@ p <- ggplot(dados1,aes(x=Trat, y=Var)) +
     axis.text.x = element_text(hjust = 0.5, size = 12, face = "plain", colour = "black", family = "sans", angle = 0, vjust = 0, lineheight = 1),
     axis.text.y = element_text(hjust = 0.5, size = 12, face = "plain", colour = "black", family = "sans", angle = 90, vjust = 0, lineheight = 1),
     axis.title.y = element_text(hjust = 0.5, size = 12, face = "bold", colour = "black", family = "sans", angle = 90, vjust = 0, lineheight = 1)) +
-  geom_hline(yintercept = mean(dados1$Var), color="green", linewidth=3)
+  geom_hline(yintercept = mean(dados1$Var), color="green", linewidth=1)
 
 p
 
