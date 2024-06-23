@@ -1,0 +1,21 @@
+$`residual analysis`
+                              values
+p.value Shapiro-Wilk test     0.8948
+p.value Bartlett test         0.6906
+coefficient of variation (%) 10.0300
+first value most discrepant   5.0000
+second value most discrepant  4.0000
+third value most discrepant   1.0000
+
+$residuals
+    1     2     3     4     5     6     7     8     9    10    11 
+-4.75  4.25  0.50  5.25 -5.75  0.50 -1.75 -0.75  2.50  1.25  2.25 
+   12 
+-3.50 
+
+$`standardized residuals`
+         1          2          3          4          5          6 
+-1.3790649  1.2339001  0.1451647  1.5242296 -1.6693943  0.1451647 
+         7          8          9         10         11         12 
+-0.5080765 -0.2177471  0.7258236  0.3629118  0.6532413 -1.0161531 
+

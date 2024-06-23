@@ -1,0 +1,5 @@
+treatment,adjusted.mean,sd,sem,tukey,snk,duncan,t,scott_knott
+4,74,3.6056,2.6926,a,a,a,a,a
+3,52,2,2.6926,b,b,b,b,b
+2,35,5,2.6926,c,c,c,c,c
+1,25,5,2.6926,c,d,d,d,d
